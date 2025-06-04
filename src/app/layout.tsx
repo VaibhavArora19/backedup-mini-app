@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
-import { getSession } from "~/auth"
+import { getSession } from "../lib/auth"
 import "~/app/globals.css";
-import { Providers } from "~/app/providers";
-import { APP_NAME, APP_DESCRIPTION } from "~/lib/constants";
+import { Providers } from "@/src/app/providers";
+import { APP_NAME, APP_DESCRIPTION } from "@/src/lib/constants";
 import localFont from 'next/font/local';
 
 export const metadata: Metadata = {
